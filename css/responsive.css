@@ -1,0 +1,298 @@
+/*main css*/
+.wc-image img {
+	width: 100%;
+}
+
+/*main css ends*/
+
+
+@media(max-width:1360px) {
+    ul.primary-menu li a {
+        padding: 10px 11px;
+        font-size: 12px;
+    }
+    .fas.fa-angle-down {
+        font-size: 10px;
+    }
+    .about-img img {
+        width: 100%;
+    }
+    .wc-image img {
+        width: 100%;
+    }
+    .play-btn {
+        right: 174px;
+    }
+  
+}
+
+@media (max-width:1190px) {
+    .add-bg {
+        padding: 25px 27px;
+    }
+    .add-content-left h2 {
+        font-size: 26px;
+        width: 406px;
+    }
+    .teliphone span {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 23px;
+    }
+    .teliphone a {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+}
+
+@media(max-width:1130px) {
+    .h-contact {
+        width: 148px;
+    }
+    .c-icon {
+        font-size: 21px;
+    }
+    .c-text span {
+        font-size: 13px;
+    }
+    .c-text a {
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width:1049px) {
+    .h-button {
+        width: 130px;
+    }
+    .h-contact {
+        width: 127px;
+    }
+    .custom-btn {
+        padding: 10px 20px;
+    }
+    .h-search {
+        width: 38px;
+    }
+    .h-search span {
+        font-size: 16px;
+    }
+    .success-image img {
+        width: 100%;
+    }
+}
+@media (max-width:992px) {
+    .slider-wrap {
+        height: 55vh;
+    }
+    .slider-text .common-h6 {
+        font-size: 14px;
+    }
+    .slider-text .common-h1 {
+        font-size: 25px;
+        margin: 8px 0;
+    }
+    .slider-text .common-p {
+        font-size: 12px;
+        width:300px;
+    }
+    .brand-section ul {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .brand-section ul li {
+        margin-right: 29px;
+        margin-bottom: 20px;
+    }
+    .about-img {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .about-img img {
+        width: 60%;
+    }
+    .about-img-overlay h2 {
+        font-size: 46px;
+    }
+    .about-img-overlay h4 {
+        font-size: 13px;
+    }
+    .about-section {
+        padding: 50px 0;
+    }
+    .about-right .common-h6 {
+        font-size: 13px;
+    }
+    .about-right .common-h1 {
+        font-size: 28px;
+    }
+    .about-right .common-p {
+        font-size: 15px;
+    }
+    .about-right strong {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .about-right li {
+        font-size: 14px;
+    }
+    .about-right .custom-btn {
+        padding: 10px 23px;
+        font-size: 13px;
+    }
+    .wc-image {
+        margin-bottom: 100px;
+    }
+    .play-btn {
+        right: 219px;
+        bottom: 77px;
+    }
+    .why-choose-section {
+        padding: 40px 0;
+    }
+    .wc-text {
+        text-align: center;
+    }
+    .mtop {
+        margin-top: 0px;
+    }
+    .funding-circle {
+        padding: 0 !important;
+    }
+    .add-content-left {
+        padding-right: 32px;
+    }
+    .add-content-left h2 {
+        font-size: 20px;
+        width: 387px;
+    }
+    .teliphone a {
+        font-size: 18px;
+    }
+    .value-list h2 {
+        text-align: center;
+    }
+    .value-right {
+        justify-content: center !important;
+        margin-top: 20px;
+    }
+    .loan-section-ul li a:focus::before{
+        opacity:0;
+        visibility:hidden;
+    }
+    .single-success-story {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:991px) {
+    ul.primary-menu li ul {
+        left: 10%;
+        z-index: 99999;
+    }
+    ul.primary-menu li:hover ul {
+        top: 0;
+    }
+    .sticky-top{
+        position:inherit !important;
+    }
+}
+@media (max-width:768px) {
+    .about-img-overlay {
+        background: #fff;
+        bottom: -24px;
+        width: 120px;
+        height: 120px;
+        border: 3px solid #E83B3E;
+        border-radius: 50%;
+    }
+    .add-bg {
+        display: block !important;
+        text-align: center;
+    }
+    .add-content-left {
+        border-right:none;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .add-content-left h2 {
+        width: 100%;
+    }
+    .add-section {
+        padding: 0 !important;
+    }
+    .funding-circle {
+        padding: 20px !important;
+    }
+    .review-img {
+        text-align: center !important;
+    }
+    .review-img img {
+        width: 80%;
+    }
+    .success-image img {
+        width: 100%;
+    }
+    .footer-top {
+        text-align: center;
+    }
+    .single-footer-top-item {
+        margin-bottom: 50px;
+    }
+    .sticky-top {
+        position: inherit;
+    }
+}
+@media (max-width:568px) {
+    .header-info {
+        margin: 13px auto;
+    }
+    .about-right .common-h6 {
+        font-size: 12px;
+    }
+    .about-right .common-h1 {
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .about-right .common-p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+    .about-right strong {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    .about-right li {
+        font-size: 11px;
+    }
+    .apply-timeline {
+        text-align: center;
+    }
+}
+@media (max-width:468px) {
+    .slider-text .common-h1 {
+        width: 250px;
+    }
+    .slider-text .common-p {
+        width: 272px;
+    }
+    .about-img-overlay {
+        bottom: -18px;
+        width: 90px;
+        height: 90px;
+    }
+    .about-img-overlay h2 {
+        font-size: 26px;
+    }
+    .about-img-overlay h4 {
+        font-size: 9px;
+    }
+    
+    .play-btn {
+        right: 83px;
+        bottom:2px;
+    }
+}
